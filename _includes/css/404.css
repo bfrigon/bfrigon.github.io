@@ -1,0 +1,11 @@
+/* -------------------------------------------------------------------------------
+ *
+ * Error pages
+ *
+ * -------------------------------------------------------------------------------
+ */
+.err { text-align: center; }
+.err p.code { font-size: 4.5em; text-align: center; }
+.err p.msg { font-size: 1.6em; text-align: center; }
+.err img { width:90%;  }
+

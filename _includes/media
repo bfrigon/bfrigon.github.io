@@ -1,0 +1,42 @@
+{% assign media=site.data.media[include.name] %}
+{% if include.type != null %}{% assign type = include.name %}{% else %}{% assign type = media.type %}{% endif %}
+{% if include.url != null %}{% assign url = include.url %}{% else %}{% assign url = media.url %}{% endif %}
+{% if include.align != null %}{% assign align = include.align %}{% else %}{% assign align = media.align %}{% endif %}
+{% if include.caption != null %}{% assign caption = include.caption %}{% else %}{% assign caption = media.caption %}{% endif %}
+{% if include.alt != null %}{% assign alt = include.alt %}{% else %}{% assign alt = media.alt %}{% endif %}
+{% if include.thumbnail != null %}{% assign thumbnail = include.thumbnail %}{% else %}{% assign thumbnail = media.thumbnail %}{% endif %}
+{% if include.height != null %}{% assign height = include.height %}{% else %}{% assign height = media.height %}{% endif %}
+{% if include.width != null %}{% assign width = include.width %}{% else %}{% assign width = media.width %}{% endif %}
+{% if include.popup != null %}{% assign popup = include.popup %}{% else %}{% assign popup = media.popup %}{% endif %}
+{% if include.class != null %}{% assign div_class = include.class %}{% else %}{% assign div_class = media.class %}{% endif %}
+{% if include.caption_visible != null %}{% assign caption_visible = include.caption_visible %}{% else %}{% assign caption_visible = media.caption_visible %}{% endif %}
+
+{% if type == null or type == empty %}{% assign type = "image" %}{% endif %}
+{% if align == null or align == empty %}{% assign align = "none" %}{% endif %}
+
+<div class="media {{ type }} align{{ align }} {{ div_class }}">
+    {% if type == "static" %}
+        {% assign thumbnail = url %}
+    {% else %}
+        {% if popup == null or popup == true %}
+            {% assign a_class = "popup"%}{% else %}{% assign a_class = "link" %}
+        {% endif %}
+        <a class="{{ a_class }}" href="{{ url }}" title="{{ caption }}">
+    {% endif %}
+
+    {% if caption_visible == true %}
+        <div class="caption">{{ caption }}</div>
+    {% endif %}
+
+    {% if width > 0 and height > 0 %}
+        <div class="img-container" style="padding: {{ height | times:100 | divided_by:width }}% 0px 0px 0px; width: {{ width }}px;">
+            <img src="{{ thumbnail }}" alt="{{ alt }}" title="{{ caption }}" width="{{ width }}" height="{{ height }}" />
+        </div>
+    {% else %}
+        <img src="{{ thumbnail }}" alt="{{ alt }}" title="{{ caption }}" />
+    {% endif %}
+
+    {% unless type == "static" %}
+        </a>
+    {% endunless %}
+</div>

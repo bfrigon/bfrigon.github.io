@@ -1,0 +1,146 @@
+---
+layout: compress
+---
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-41548680-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-41548680-2');
+    </script>
+    
+    
+    <style type="text/css">
+        {% include css/core.css %}
+        {% include css/fontello-embedded.css %}
+    </style>
+    {% for name in page.inline-css %}
+        <style>{% include css/{{ name }} %}</style>
+    {% endfor %}
+    {% for name in layout.inline-css %}
+        <style>{% include css/{{ name }} %}</style>
+    {% endfor %}
+
+    <style type="text/css">{% include css/mobile.css %}</style>
+    
+
+    <meta name="language" content="english" />
+    <meta name="DC.Language" content="en">
+    {% if page.description %}
+        <meta name="description" content="{{ page.description }}" />
+        <meta name="DC.description" content="{{ page.description }}" />
+        <meta property="description" content="{{ page.description }}" />
+        <meta property="og:description" content="{{ page.description }}" />
+    {% endif %}
+    <meta property="og:locale" content="{{ site.locale }}" />
+    <meta property="og:title" content="{{ page.title }}" />
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+    <meta property="og:site_name" content="{{ site.title }}" />
+    {% if page.type == "article" %}
+        <meta property="og:type" content="article" />
+        <meta property="article:publisher" content="{{ site.url }}" />
+        <meta property="article:section" content="{{ page.categories[0] }}" />
+        <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}" />
+        <meta property="article:modified_time" content="{{ page.lastmod | date_to_xmlschema }}" />
+        <meta property="article:tags" content="{{ page.tags | join: ',' }}" />
+        <meta name="dc.creator" content="{{ page.author }}" />
+        <meta name="dc.date" content="{{ page.date | date_to_xmlschema }}" />
+
+        {% if page.author-link %}
+            <meta property="article:author" content="{{ page.author-link }}" />
+        {% endif %}
+
+        {% if page.thumbnail %}
+            <meta property="og:image" content="{{ site.url }}/images/post-thumbnail/{{ page.thumbnail }}.jpg" />
+        {% endif %}
+    {% endif %}
+
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+
+    <link type="text/plain" rel="author" href="{{ site.url }}/humans.txt" />
+    <link rel="canonical" href="{{ site.url }}{%if page.canonical %}{{ page.canonical }}{% else %}{{ page.url }}{% endif %}" />
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.url }}/feed.xml" />
+
+    {% if page.author-link %}
+        <link rel="author" href="{{ page.author-link }}" />
+    {% endif %}
+    {% if page.type == "category" %}
+        <link rel="alternate" type="application/rss+xml" title="{{ site.title }} - Category: {{ page.category }}" href="{{ site.url }}/categories/{{ page.category }}/feed.xml" />
+    {% endif %}
+    {% if page.type == "tag" %}
+        <link rel="alternate" type="application/rss+xml" title="{{ site.title }} - Tag: {{ page.tag }}" href="{{ site.url }}/tag/{{ page.tag }}/feed.xml" />
+    {% endif %}
+
+    <meta name="viewport" content="width=device-width" />
+
+    {% if page.type == "tag" %}
+        <title>Tag: {{ page.title }}</title>
+        <meta name="dc.title" content="Tag: {{ page.title }}" />
+    {% elsif page.type == "category" %}
+        <title>Category: {{ page.title }}</title>
+        <meta name="dc.title" content="Category: {{ page.title }}" />
+    {% else %}
+        <title>{{ page.title }}</title>
+        <meta name="dc.title" content="{{ page.title }}" />
+    {% endif %}
+
+    {% include res-defer-loading.html %}
+</head>
+<body>
+
+    <div class="header">
+        <div class="header-center">
+            <div id="title">{{ site.title }}</div>
+            <div id="subtitle">{{ site.description }}</div>
+            <img id="logo" alt="logo.jpg" src="data:image/jpeg;base64,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"/>
+        </div>
+    </div>
+
+
+    <div class="menubar">
+        <nav>
+        <div class="menubar-center">
+
+            <div class="navmenu">
+                <a class="more mobile" href="javascript:void(0);"><i class="icon-menu"></i></a>
+
+                {% for menu in site.data.menu %}
+                    {% assign item_class='' %}
+                    {% if menu.align == 'right' %}{% assign item_class = item_class | prepend: 'float-right ' %}{% endif %}
+                    {% if menu.mobile %}{% assign item_class = item_class | append: ' mobile' %}{% endif %}
+
+                    <a class="{{ item_class }}" href="{{ menu.url }}">
+                        {% if menu.icon %}
+                        <i class="icon-{{ menu.icon }}"></i>
+                        {% endif %}
+                        <span>{{ menu.caption }}</span>
+                    </a>
+                {% endfor %}
+
+            </div>
+        </div>
+        </nav>
+    </div>
+
+    <div class="page">
+        <div class="page-content">
+            {{ content }}
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-content">
+            <span>&copy; 2013-{{ site.time | date: '%Y' }} Benoit Frigon.</span>
+        </div>
+    </div>
+
+</body>
+</html>

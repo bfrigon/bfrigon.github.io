@@ -1,0 +1,36 @@
+
+<h2>Comments</h2>
+<form name="comment" method="POST" action="">
+    <p>
+        <label for="name">Name :</label>
+        <input name="name" id="name"></input>
+    </p>
+
+    <p>
+        <label for="email">Email :</label>
+        <input name="email" id="email" placeholder="Optional"></input>
+    </p>
+    <p>
+        <label for="message">Message :</label>
+        <textarea name="message" id="message"></textarea>
+    </p>
+
+    <input type="hidden" name="url" value="{{ page.permalink }}" />
+    <input type="hidden" name="reply_to" value="" />
+
+    <p>
+        <a name="submit" class="button" href="#">Post</a
+        ><a name="cancel" class="button btn-hidden" href="#">Cancel</a>
+    </p>
+</form>
+
+<div class="msgbox-background" >
+    <div class="msgbox">
+        <i id="msgbox-icon"></i>
+        <span id="msgbox-caption"></span>
+        <p><a class="button" id="msgbox-close" href="#">Cancel</a></p>
+    </div>
+</div>
+
+
+<div class="comments-container" data-permalink="{{ page.permalink }}"></div>

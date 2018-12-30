@@ -1,0 +1,1316 @@
+############################################################
+#
+# Projects > Asterisk pbx > case constuction
+#
+############################################################
+projects-pbx-case:
+    - name   : pbx-custom-case-1.jpg
+      alt    : Bare chassis
+      title  : Bare chassis - CH-14404 (Digikey)
+
+    - name   : pbx-custom-case-2.jpg
+      title  : Aplying the cutting template.
+
+    - name   : pbx-custom-case-3.jpg
+      title  : Cutting holes for the components.
+
+    - name   : pbx-custom-case-4.jpg
+      title  : Cutting holes for the components.
+
+    - name   : pbx-custom-case-5.jpg
+      alt    :  Holes for the standoffs
+      title  : Holes for the standoffs to support the motherboard, PSU and fxo/fxs board.
+
+    - name   : pbx-custom-case-6.jpg
+      title  : Case ready for painting
+
+
+############################################################
+#
+# Projects > Asterisk pbx > Front panel
+#
+############################################################
+projects-pbx-front-panel:
+    - name   : front-panel-1.jpg
+      title  : Cutting the oppening for the lcd
+
+    - name   : front-panel-2.jpg
+      alt    : Joining the two layers
+      title  : Joining the two layers (22 gauge aliminium sheet and 1/8" aliminium panel)
+
+    - name   : front-panel-3.jpg
+      title  : Adding the swage standoff for the lcd mount.
+
+    - name   : touch-sensor-electrodes.jpg
+      title  : Sensor electrodes for the capacitive switch
+
+    - name   : electrode-insulation.jpg
+      title  : Insulating layer between the panel and electrode
+
+    - name   : front-panel-painting-1.jpg
+      title  : Covering the electrodes with epoxy
+
+    - name   : front-panel-painting-2.jpg
+      title  : Body filler
+
+    - name   : front-panel-painting-3.jpg
+      title  : Ready for painting
+
+    - name   : front-panel-painting-4.jpg
+      title  : Primer coat
+
+    - name   : front-panel-painting-5.jpg
+      title  : Base coat
+
+    - name   : aplying-decals-4.jpg
+      title  : Decals #1
+
+    - name   : aplying-decals-5.jpg
+      title  : Decals #2
+
+    - name   : aplying-decals-6.jpg
+      title  : "'Developing' the decals"
+
+    - name   : aplying-decals-1.jpg
+      title  : Applying the decals
+
+    - name   : aplying-decals-2.jpg
+      title  : Applying the decals
+
+    - name   : aplying-decals-3.jpg
+      title  : Finished front panel
+
+
+############################################################
+#
+# Projects > Asterisk pbx > LCD Module
+#
+############################################################
+pbx-lcd-module:
+    - name   : lcd-with-qt320-touch-sensor.jpg
+      title  : LCD Module with QT320 touch sensor
+
+    - name   : lcd-module-mod-AT42QT1011.jpg
+      alt    : Modified LCD module.
+      title  : Modified LCD module, QT320 removed and using Atmel AT42QT1011 instead (Ugly hack, i know).
+
+    - name   : lcd-module-test.jpg
+      title  : LCD Module testing
+
+    - name   : lcd-with-qt320.jpg
+      title  : LCD Module with QT320 touch sensor
+
+
+############################################################
+#
+# Projects > Asterisk pbx > Assembly
+#
+############################################################
+projects-pbx-assembly:
+    - name   : prototype_1.jpg
+      title  : Components testing
+
+    - name   : assembly_2.jpg
+      title  : Back panel
+
+    - name   : assembly_3.jpg
+      title  : Front panel
+
+    - name   : assembly_1.jpg
+      title  : Components
+
+    - name   : ata.jpg
+      title  : FXO/FXS Analog modules
+
+    - name   : assembly_4.jpg
+      title  : Finished assembly
+
+    - name   : rack.jpg
+      title  : Installed in rack
+
+
+############################################################
+#
+# Projects > Asterisk pbx > yaam interface screenshot
+#
+############################################################
+projects-pbx-asterisk-manager-screenshots:
+    - name   : call-log.jpg
+      title  : Asterisk CDR call log
+
+    - name   : call-log-filters.jpg
+      title  : CDR filters
+
+    - name   : cdr-routes.jpg
+      title  : Define cost for specific call routes
+
+    - name   : status-page.jpg
+      title  : Server status page
+
+    - name   : voicemail.jpg
+      title  : Voicemail
+
+    - name   : vm-listen.jpg
+      title  : Listen to voicemail
+
+    - name   : edit-user.jpg
+      title  : Edit user
+
+
+############################################################
+#
+# Projects > PVR > Case mod
+#
+############################################################
+project-pvr-case-mod:
+    - name   : pvr-case-empty-4.jpg
+      title  : Scientific Atlanta old case
+
+    - name   : pvr-case-empty-2.jpg
+      title  : Scientific Atlanta case gutted and cleaned.
+
+    - name   : pvr-case-empty-3.jpg
+      title  : Scientific Atlanta case gutted and cleaned.
+
+    - name   : pvr-case-empty-1.jpg
+      title  : Scientific Atlanta case gutted and cleaned.
+
+    - name   : pvr-case-mod-1.jpg
+      alt    : Template for cutting the opening of the IO shield
+      title  : Applying the template for cutting the opening of the IO shield
+
+    - name   : pvr-case-mod-2.jpg
+      alt    : IO shield openning
+      title  : Cutting out the opening for the IO shield
+
+    - name   : pvr-case-mod-3.jpg
+      title  : One hole for the standoff is right trought a vent
+
+    - name   : pvr-case-mod-5.jpg
+      title  : Adding an aluminum sheet to provide better support for the standoffs.
+
+    - name   : pvr-case-mod-6.jpg
+      title  : Motherboard base plate installed
+
+    - name   : pvr-case-mod-8.jpg
+      title  : IO Shield in place
+
+    - name   : pvr-case-mod-4.jpg
+      title  : IO Shield in place
+
+    - name   : pvr-case-mod-10.jpg
+      alt    : Aluminum sheet
+      title  : I added an additional aluminum sheet on the back to cover unused holes.
+
+    - name   : pvr-case-mod-7.jpg
+      title  : Test fit of the motherboard
+
+    - name   : pvr-case-mod-11.jpg
+      title  : "Completed case, MB and PSU installed"
+
+    - name   : pvr-case-mod-9.jpg
+      title  : Testing the MB
+
+
+############################################################
+#
+# Projects > PVR > Front panel
+#
+############################################################
+project-pvr-front-panel:
+    - name   : pvr-case-mod-front-panel.jpg
+      title  : Front panel
+
+    - name   : original-front-panel-pcb.jpg
+      alt    : Original front panel pcb
+      title  : The original Scientific Atlanta Explorer 2000 front panel pcb
+
+    - name   : front-panel-connection.jpg
+      title  : Front panel connector
+
+    - name   : front-panel-pcb-mockup.jpg
+      alt    : Front panel pcb model.
+      title  : Front panel pcb model. I wanted to make sure all the components would fit in the pannel assembly before i sent the board to the fab house.
+
+    - name   : front-panel-pcb-bare.jpg
+      title  : Front panel pcb
+
+    - name   : front-panel-pcb.jpg
+      title  : Front panel pcb assembled
+
+    - name   : front-panel-pcb-installed.jpg
+      title  : Front panel installed
+
+
+############################################################
+#
+# Projects > PVR > Hard drive bay
+#
+############################################################
+project-pvr-hd-bay:
+    - name   : hard-drive-bay-1.jpg
+      title  : Hard drive bay brackets
+
+    - name   : hard-drive-bay-2.jpg
+      title  : Hard drive bay assembly
+
+    - name   : hard-drive-bay-3.jpg
+      title  : Assembled drive bay
+
+    - name   : hard-drive-bay-4.jpg
+      title  : Hard drive test fit
+
+    - name   : hard-drive-bay-5.jpg
+      title  : 2.5" Hard drive bay installed
+
+
+############################################################
+#
+# Projects > PVR > Screenshots
+#
+############################################################
+project-pvr-screenshots:
+    - name   : livetv.jpg
+      title  : Live TV
+
+    - name   : main.jpg
+      title  : Main screen
+
+    - name   : movies.jpg
+      title  : Movie list
+
+
+
+############################################################
+#
+# Projects > Media server > Assembly
+#
+############################################################
+projects-media-server-assembly:
+    - name   : empty-case-1.jpg
+      title  : Empty iStarUSA D-118V2-ITX 1U rackmount chassis
+
+    - name   : empty-case-2.jpg
+      title  : Empty iStarUSA D-118V2-ITX 1U rackmount chassis
+
+    - name   : dnt2800mt-motherboard.jpg
+      title  : Intel mini-itx DN2800MT
+
+    - name   : hvr-2250-tv-tuner.jpg
+      title  : WinTV HVR-2250 dual ATSC tuner.
+
+    - name   : hard-drive-tray.jpg
+      title  : Hard drive tray
+
+    - name   : assy_1.jpg
+      title  : Drive dray and PCIe riser
+
+    - name   : assy_4.jpg
+      title  : Installed PSU and motherboard
+
+    - name   : assy_3.jpg
+      title  : Fully assembled
+
+    - name   : assy_2.jpg
+      title  : Fully assembled
+
+
+############################################################
+#
+# Projects > Media server > PSU
+#
+############################################################
+projects-media-server-psu:
+    - name   : psu_1.jpg
+      title  : Mini ATX PSU "adapter" bracket
+
+    - name   : psu_2.jpg
+      title  : Mini ATX PSU "adapter" bracket
+
+    - name   : psu_3.jpg
+      title  : Power connector installed
+
+    - name   : psu_4.jpg
+      title  : PSU Installed
+
+
+############################################################
+#
+# Projects > Media server > Pcie riser
+#
+############################################################
+projects-media-server-pcie-riser:
+    - name   : riser_0.jpg
+      title  : This chassis has no support for the riser card.
+
+    - name   : riser_1.jpg
+      title  : Cutton templated glued to an aluminum sheet
+
+    - name   : riser_2.jpg
+      title  : Cutting the sheet using a nibbler
+
+    - name   : riser_3.jpg
+      title  : Bending the sheet metal using a vise and aluminum angles
+
+    - name   : riser_4.jpg
+      title  :
+
+    - name   : riser_5.jpg
+      title  :
+
+    - name   : riser_6.jpg
+      title  : Completed PCIe riser bracket
+
+    - name   : riser_7.jpg
+      title  : PCIe riser
+
+    - name   : riser_8.jpg
+      title  : PCIe riser installed
+
+
+############################################################
+#
+# Projects > AVS-50
+#
+############################################################
+project-avs50:
+    - name   : av-switcher-5.jpg
+      title  : The PSU and my attempt at making a shield.
+
+    - name   : av-switcher-lcd.jpg
+      title  : Front panel lcd module
+
+    - name   : av-switcher-6.jpg
+      title  : Front panel
+
+    - name   : audio-crosspoint.jpg
+      title  : The audio 16x16 crosspoint
+
+    - name   : av-switcher-3.jpg
+      title  : Controller board
+
+    - name   : av-switcher-2.jpg
+      title  : Completed case
+
+    - name   : av-switcher-1.jpg
+      title  : Completed case
+
+
+############################################################
+#
+# Projects > AVS-50 > Front panel
+#
+############################################################
+project-avs50-front-panel:
+    - name   : front-panel-6.jpg
+      title  : Front panel
+
+    - name   : front-panel-7.jpg
+      title  : Front panel with RCA connector installed
+
+    - name   : front-panel-8.jpg
+      title  : Front panel
+
+    - name   : front-panel-9.jpg
+      title  : Front panel
+
+    - name   : front-panel-2.jpg
+      title  : Front panel
+
+    - name   : front-panel-1.jpg
+      title  : Front panel window
+
+    - name   : front-panel-4.jpg
+      title  : Front panel (Back)
+
+    - name   : front-panel-3.jpg
+      title  : Front panel (Back)
+
+    - name   : front-panel-pcb.jpg
+      title  : Front panel PCB
+
+    - name   : front-panel-pcb-2.jpg
+      title  : Front panel PCB (back)
+
+    - name   : keypad-2.jpg
+      title  : Keypad
+
+    - name   : keypad.jpg
+      title  : Keypad pcb
+
+    - name   : testing-1.jpg
+      title  : Breadboard testing
+
+
+############################################################
+#
+# Projects > AVS50 > Case
+#
+############################################################
+project-avs50-case:
+    - name   : case-5.jpg
+      title  : Empty chassis
+
+    - name   : psu-1.jpg
+      title  : PSU
+
+    - name   : psu-2.jpg
+      title  :
+
+    - name   : case-6.jpg
+      title  : Back panel
+
+    - name   : case-7.jpg
+      title  : Back panel finished
+
+    - name   : psu-9.jpg
+      title  : Power connector
+
+    - name   : case-4.jpg
+      title  : Cover
+
+    - name   : front-panel-5.jpg
+      title  : Front panel
+
+
+############################################################
+#
+# Projects > Alarm clock > 3d model
+#
+############################################################
+alarm-clock-model:
+    - name   : final-render.jpg
+      title  : 3D model render (model A)
+
+    - name   : final-render-dark.jpg
+      title  : 3D model render (Model A) - In the dark
+
+    - name   : final-render-back.jpg
+      title  : 3D model render (Model A) - Back
+
+    - name   : model-b.jpg
+      title  : 3D model render (Model B)
+
+    - name   : model-b-dark.jpg
+      title  : 3D model render (Model B) - In the dark
+
+
+############################################################
+#
+# Projects > Alarm clock > Final assembly
+#
+############################################################
+alarm-clock-assembly:
+    - name   : alarm-clock-front.jpg
+      title  : Front view
+
+    - name   : alarm-clock-back.jpg
+      title  : Back view
+
+    - name   : alarm-clock-display.jpg
+      title  : Alarm clock display
+
+    - name   : alarm-clock-display-in-dark.jpg
+      title  : Alarm clock display in the dark
+
+    - name   : alarm-clock-side.jpg
+      title  : Side view
+
+    - name   : assembly-top.jpg
+      title  : Final assembly
+
+
+
+############################################################
+#
+# Projects > Alarm clock > Led matrix
+#
+############################################################
+alarm-clock-led-matrix:
+    - name   : led-matrix-jig3.jpg
+      title  :
+
+    - name   : led-matrix-rows2.jpg
+      title  :
+
+    - name   : led-matrix-columns.jpg
+      title  :
+
+    - name   : led-matrix-columns2.jpg
+      title  :
+
+    - name   : led-matrix-columns3.jpg
+      title  :
+
+    - name   : led-matrix-columns4.jpg
+      title  :
+
+    - name   : led-matrix-base-assembled.jpg
+      title  :
+
+
+
+############################################################
+#
+# Project > Alarm clock > Segment display
+#
+############################################################
+alarm-clock-seg-display:
+    - name   : display-base-pcb-top.jpg
+      title  : Display - Base pcb
+
+    - name   : seg-display-board-assembled.jpg
+      title  : Display pcb assembled
+
+    - name   : display-assembled.jpg
+      title  : Display base assembled
+
+    - name   : display-testing.jpg
+      title  : Display pcb testing
+
+    - name   : display-epoxy-sanding-3000grit.jpg
+      title  : Display - encapsulated in epoxy
+
+    - name   : alarm-clock-front2.jpg
+      title  : Display - finished
+
+    - name   : alarm-clock-display2.jpg
+      title:   Display - testing
+
+
+############################################################
+#
+# Project > Alarm clock > Display - Segment diffusers
+#
+############################################################
+alarm-clock-seg-diffusers:
+    - name   : segments-model.jpg
+      title  :
+
+    - name   : segments-mold-frame.jpg
+      title  :
+
+    - name   : segments-mold.jpg
+      title  :
+
+    - name   : segments-dots-mold.jpg
+      title  :
+
+    - name   : epoxy-cornstarch.jpg
+      title  :
+
+    - name   : translucent-white-epoxy-mix.jpg
+      title  :
+
+    - name   : segments-epoxy-curing.jpg
+      title  :
+
+    - name   : segments-demolding.jpg
+      title  :
+
+    - name   : carving-segments.jpg
+      title  :
+
+    - name   : segments-painted.jpg
+      title  :
+
+
+
+############################################################
+#
+# Project > Alarm clock > Display - Epoxy casting
+#
+############################################################
+alarm-clock-display-casting:
+    - name   : mold-silicon-rubber.jpg
+      title  :
+
+    - name   : mold-frame.jpg
+      title  :
+
+    - name   : mold-silicon-curing.jpg
+      title  :
+
+    - name   : mold-plaster-filler.jpg
+      title  :
+
+    - name   : mold-ready-1.jpg
+      title  :
+
+    - name   : mold-ready-2.jpg
+      title  :
+
+    - name   : casting-first-layer.jpg
+      title  :
+
+    - name   : casting-second-layer.jpg
+      title  :
+
+
+    - name   : casting-last-layer.jpg
+      title  :
+
+    - name   : display-demolding.jpg
+      title  :
+
+
+############################################################
+#
+# Project > Alarm clock > Display - Base
+#
+############################################################
+alarm-clock-display-base:
+
+    - name   : cutting-jig.jpg
+      title  :
+
+    - name   : cutting-template.jpg
+      title  :
+
+    - name   : cutting-opening-display-connector.jpg
+      title  :
+
+    - name   : drill-counterbore-hole.jpg
+      title  :
+
+    - name   : force-fit-standoff.jpg
+      title  :
+
+    - name   : test-fit-bottom.jpg
+      title  :
+
+    - name   : gasket.jpg
+      title  :
+
+    - name   : display-base-bottom.jpg
+      title  :
+
+    - name   : display-finished.jpg
+      title  :
+
+
+############################################################
+#
+# Project > Alarm clock > Display - Casting epoxy polishing
+#
+############################################################
+alarm-clock-seg-polishing:
+
+    - name   : display-epoxy-sanding-120grit.jpg
+      title  : Sanding - 120 grit
+
+    - name   : display-epoxy-sanding-400grit.jpg
+      title  : Sanding - 400 grit
+
+    - name   : display-epoxy-sanding-1000grit.jpg
+      title  : Sanding - 1000 grit
+
+    - name   : display-epoxy-sanding-2000grit.jpg
+      title  : Sanding - 2000 grit
+
+    - name   : display-epoxy-sanding-3000grit.jpg
+      title  : Sanding - 3000 grit
+
+
+############################################################
+#
+# Project > Alarm clock > Keypad overlay
+#
+############################################################
+alarm-clock-keypad-overlay:
+
+    - name   : keypad-led-diffuser-holes.jpg
+      title  : LED difuser holes
+
+    - name   : keypad-led-diffuser-kepton.jpg
+      alt    : Kepton tape
+      title  : Kepton tape to stop the epoxy from flowing
+
+    - name   : keypad-led-diffuser-epoxy.jpg
+      title  : Filling the holes with epoxy
+
+    - name   : keypad-led-diffuser.jpg
+      title  : Led diffuser
+
+    - name   : keypad-overlay-sheet.jpg
+      title  : Keypad overlay printed on vinyl paper.
+
+    - name   : keypad-overlay.jpg
+      title  : Keypad overlay finished.
+
+
+############################################################
+#
+# Project > Alarm clock > Speaker holder
+#
+############################################################
+alarm-clock-speaker-holder:
+
+    - name   : speaker-holder-model.jpg
+      alt    : Speaker holder cardboard model
+      title  : Speaker holder model - Cutting each layers on bainbridge cardboard.
+
+    - name   : speaker-holder-cardboard-model.jpg
+      alt    : Cardboard model assembled
+      title  : Speaker holder cardboard model assembled.
+
+    - name   : speaker-holder-mold.jpg
+      alt    : Speaker holder - silicon mold
+      title  : Making the silicon mold for the speaker holder.
+
+    - name   : speaker-holder-casting.jpg
+      alt    : Speaker holder - casting epoxy
+      title  : Pouring the casting epoxy in the mold
+
+    - name   : speaker-holder.jpg
+      title  : Speaker holder finished
+
+    - name   : speaker-assembly.jpg
+      title  : Speaker assembly
+
+
+############################################################
+#
+# Project > Alarm clock > Motherboard
+#
+############################################################
+alarm-clock-motherboard:
+
+    - name   : motherboard-pcb.jpg
+      title  : Motherboard pcb
+
+    - name   : motherboard-aria-g25-top.jpg
+      alt    : Motherboard - Top side
+      title  : Motherboard - Top side, Aria G25 module
+
+    - name   : motherboard-bottom.jpg
+      title  : Motherboard - Bottom side
+
+    - name   : motherboard-installed.jpg
+      title  : Motherboard - Installed
+
+    - name   : its-alive.jpg
+      title  : It's alive!!!
+
+
+############################################################
+#
+# Project > Alarm clock > Touch keypad
+#
+############################################################
+alarm-clock-touch-keypad:
+
+    - name   : touch-keypad-pcb.jpg
+      title  : Touch keypad pcb
+
+    - name   : touch-keypad-assembled.jpg
+      title  : Touch keypad assembled
+
+    - name   : touch-keypad-adhesive.jpg
+      title  : 467MP adhesive
+
+    - name   : touch-keypad-adhesive-trimmed.jpg
+      title  : Touch keypad - adhesive
+
+    - name   : touch-keypad-installed.jpg
+      title  : Touch keypad installed
+
+
+############################################################
+#
+# Project > Alarm clock > Case
+#
+############################################################
+alarm-clock-case:
+
+    - name   : case-drill-template-bottom.jpg
+      title  : Drill template for speaker
+
+    - name   : case-drill-template-top.jpg
+      title  : Drill template - top
+
+    - name   : case-bottom.jpg
+      title  : Finished case
+
+    - name   : laser-cutting-jig.jpg
+      title  : Laser cuttin jig
+
+    - name   : laser-cutting-jig2.jpg
+      title  : Laser cutting jig result
+
+
+############################################################
+#
+# DIY > Rack cabinet
+#
+############################################################
+rack-cabinet:
+    - name   : cable-organizer.jpg
+      alt    : Cable organizer
+      title  : A cable organizer i made using leftover wire duct and a 1U blank.
+
+    - name   : ups.jpg
+      alt    : UPS compartment
+      title  : Compartment for my UPS (lower section)
+
+    - name   : rack-shelf.jpg
+      title  : Rack rails
+
+    - name   : rack-cabinet-upper-section.jpg
+      title  : Back (upper section)
+
+    - name   : rack-cabinet.jpg
+      title  : Back (middle section)
+
+    - name   : rack-cabinet-back.jpg
+      title  : Wire ducts
+
+    - name   : power-distribution.jpg
+      title  : Cheap power distribution
+
+    - name   : rack-cabinet-front.jpg
+      title  : Front view
+
+
+
+
+############################################################
+#
+# DIY > LED strip lighting
+#
+############################################################
+rack-led-lighting:
+    - name   : rack-back-light-white.jpg
+      alt    : Rear view - lighting (white)
+      title  : Rear view of the rack with led lighting on (White)
+
+    - name   : rack-back-light-blue.jpg
+      alt    : Rear view - lighting (blue)
+      title  : Rear view of the rack with led lighting on (Blue)
+
+    - name   : rack-back-light-green.jpg
+      alt    : Rear view - lighting (green)
+      title  : Rear view of the rack with led lighting on (Green)
+
+    - name   : rack-back-light-red.jpg
+      alt    : Rear view - lighting (red)
+      title  : Rear view of the rack with led lighting on (Red)
+
+    - name   : rack-front-light-green.jpg
+      alt    : Front view - lighting (green)
+      title  : Front view of the rack with led lighting on (Green)
+
+    - name   : rack-front-light-purple.jpg
+      alt    : Front view - lighting (purple)
+      title  : Front view of the rack with led lighting on (Purple)
+
+    - name   : rack-front-light-red.jpg
+      alt    : Front view - lighting (red)
+      title  : Front view of the rack with led lighting on (Red)
+
+    - name   : rack-front-light-white.jpg
+      alt    : Front view - lighting (white)
+      title  : Front view of the rack with led lighting on (White)
+
+    - name   : led-strip.jpg
+      title  : Installed RGB led strip
+
+    - name   : rgb-led-strip.jpg
+      alt    : RGB strip - upper section
+      title  : Led strip installed in the upper section of the rack
+
+    - name   : led-strip-off.jpg
+      title  : Led strip (Off)
+
+    - name   : led-strip-blue.jpg
+      title  : Led strip (Blue)
+
+    - name   : led-strip-green.jpg
+      title  : Led strip (Green)
+
+    - name   : led-strip-red.jpg
+      title  : Led strip (Red)
+
+    - name   : led-strip-white.jpg
+      title  : Led strip (White)
+
+
+############################################################
+#
+# DIY > Workbench > Finished
+#
+############################################################
+workbench-finished:
+
+    - name   : finished-workbench.jpg
+      title  : Finished workbench
+
+    - name   : work-area.jpg
+      title  : Work area
+
+    - name   : drill-press.jpg
+      title  : Drill press
+
+    - name   : outlets.jpg
+      title  : AC outlets and network/usb connections
+
+
+############################################################
+#
+# DIY > Workbench > Construction - framing
+#
+############################################################
+workbench-construction-framing:
+    - name   : lumber.jpg
+      alt    : Lumber.
+      title  : All the pieces cut and ready for assembly.
+
+    - name   : notching-2x4.jpg
+      title  : Notching the 2x4's
+
+    - name   : notching-2x4-2.jpg
+      title  : Notching the 2x4's
+
+    - name   : notched-2x4.jpg
+      title  :
+
+    - name   : side-assembly-1.jpg
+      title  : Side assembly
+
+    - name   : side-assembly.jpg
+      title  : Side assembly completed
+
+    - name   : front-bracing.jpg
+      title  : Horizontal support installation
+
+    - name   : base-frame.jpg
+      title  : Base frame completed
+
+
+############################################################
+#
+# DIY > Workbench > Construction - lower shelf
+#
+############################################################
+workbench-construction-lower-shelf:
+
+    - name   : cross-bracing.jpg
+      title  : Lower shelf support
+
+    - name   : bottom-shelf.jpg
+      title  : Bottom shelf
+
+
+############################################################
+#
+# DIY > Workbench > Construction - Bench top
+#
+############################################################
+workbench-construction-bench-top:
+
+    - name   : top-installed.jpg
+      title  : Bench top installed
+
+    - name   : top.jpg
+      title  : Notches in bench top
+
+    - name   : base-completed.jpg
+      title  : Base framing completed
+
+
+############################################################
+#
+# DIY > Workbench > Construction - Top section
+#
+############################################################
+workbench-construction-top-section:
+
+    - name   : upper-section-frame.jpg
+      title  : Upper section frame
+
+    - name   : upper-frame-attachment.jpg
+      title  : Upper section attachment
+
+    - name   : upper-frame-attachment-right.jpg
+      title  :
+
+    - name   : perf-board-installed.jpg
+      alt    : Perforated board installed
+      title  : Perforated board installed
+
+    - name   : upper-frame-attachment-2.jpg
+      title  :
+
+    - name   : shelves.jpg
+      title  : Shelves installed
+
+    - name   : wire-grommet.jpg
+      title  : Wire gromets
+
+    - name   : ac-outlet-boxes-installed.jpg
+      alt    : Devices boxes.
+      title  : Devices boxes. The one on the right is for AC and the smaller one is for low voltage connections
+
+    - name   : ac-outlet-boxes-rear-view.jpg
+      title  : Device boxes rear view.
+
+
+############################################################
+#
+# DIY > Workbench > Construction - Painting
+#
+############################################################
+workbench-painting:
+
+    - name   : ready-for-varnish-coat.jpg
+      alt:
+      title  :
+
+    - name   : perf-board-painting.jpg
+      alt:
+      title  :
+
+    - name   : frame-black-paint.jpg
+      alt:
+      title  :
+
+    - name   : varnish-coat-first.jpg
+      alt    : First coat of varnish.
+      title  : First coat of varnish. I used Varathan Nano Defence
+
+    - name   : varnish-coat.jpg
+      title  :
+
+    - name   : almost-done.jpg
+      title  :
+
+
+############################################################
+#
+# DIY > Workbench > Drawers
+#
+############################################################
+workbench-drawers:
+
+    - name   : drawers.jpg
+      title  :
+
+    - name   : tools-drawer-1.jpg
+      title  :
+
+    - name   : tools-drawer-2.jpg
+      title  :
+
+    - name   : tools-drawer-3.jpg
+      title  :
+
+
+############################################################
+#
+# DIY > Workbench > Lighting
+#
+############################################################
+workbench-lighting:
+
+    - name   : custom-led-strip-frame.jpg
+      title  :
+
+    - name   : custom-led-strip.jpg
+      title  :
+
+    - name   : led-lighting-custom-strips-wire.jpg
+      title  :
+
+    - name   : led-fixtures-installed.jpg
+      title  : Light fixtures installed
+
+    - name   : led-lighting-psu.jpg
+      title  : 12V 25W PSU for LED strip
+
+    - name   : led-lighting-psu-mounting.jpg
+      title  : PSU mounted on the frame
+
+    - name   : led-lighting-psu-ac.jpg
+      title  : PSU connection to AC
+
+    - name   : led-lighting-done.jpg
+      title  : LED lighting test
+
+
+############################################################
+#
+# DIY > Workbench > Cabinet
+#
+############################################################
+workbench-cabinet:
+
+    - name   : workbench-cabinet-door-closed.jpg
+      title  : Door closed
+
+    - name   : workbench-cabinet-door-open.jpg
+      title  : Door open
+
+    - name   : workbench-cabinet-side.jpg
+      title  : Side view
+
+    - name   : workbench-cabinet-door-catch.jpg
+      title  : Door catch
+
+
+############################################################
+#
+# Projects > Alarm clock V3 > Display
+#
+############################################################
+clkv3-display:
+
+    - name   : front-frame-threaded-inserts.jpg
+      title  : 2-56 and 4-40 threaded inserts installed
+
+    - name   : diffuser-epoxy-kapton-tape.jpg
+      title  : Applying kaptop tape to contain the white translucent epoxy used as a light diffuser.
+
+    - name   : diffuser-epoxy-pour.jpg
+      title  : Pouring the epoxy
+
+    - name   : diffuser-epoxy-finished.jpg
+      title  : Kapton tape is removed after the epoxy fully cures
+
+    - name   : frame-front-assembly-glue.jpg
+      title  : Glueing of the display front cover
+
+    - name   : frame-front-assembled.jpg
+      title  : Front part of the display assembly completed.
+
+    - name   : frame-front-assembled-outside.jpg
+      title  : Front view of the display assembly
+
+    - name   : frame-front-with-touch-keypad.jpg
+      title  : Touch keypad installed on the display assembly.
+      
+    - name   : frame-back-cover-assembly-glue.jpg
+      title  : Glueing of the display back cover
+
+    - name   : back-panel.jpg
+      title  : Rear view of the display assembly
+
+    - name   : rgb-lamp.jpg
+      title  : RGB lamp
+
+
+clkv3-motherboard:
+    - name   : Motherboard-assembled-top.jpg
+      title  : Top view of the motherboard PCB
+
+    - name   : motherboard-assembled-bottom.jpg
+      title  : Bottom view of the motherboard PCB
+
+    - name   : daughterboard-assembled-top.jpg
+      title  : Top view of the daughter board      
+
+    - name   : front-panel-lcd-installation.jpg
+      title  : Installing the LCD module with 467MP adhesive on the front panel PCB before soldering the connector on the other side.        
+      
+    - name   : front-panel-lcd-installed.jpg
+      title  : LCD module installed        
+
+    - name   : light-sensor.jpg
+      title  : Light sensor IC
+
+    - name   : front-panel-pcb-assembled.jpg
+      title  : Rear view of the front panel PCB        
+    
+    - name   : motherboard-final-assembly-back.jpg
+      title  : The front panel PCB is joined to the motherboard and daughter board using solder tabs
+      
+    - name   : motherboard-final-assembly-front.jpg
+      title  : Front view of the assembled motherboard.    
+
+clkv3-keypad:
+    - name   : touch-keypad-pcb-back.jpg
+      title  : Bottom view of the touch keypad PCB
+        
+    - name   : touch-keypad-pcb-front.jpg
+      title  : Top view of the touch keypad PCB
+
+    - name   : laser-engraving-overlay.jpg
+      title  : Laser engraved Plexiglas sheet for the keypad overlay.
+
+    - name   : masking-white-color.jpg
+      title  : Masking with kapton tape the sections of the overlay to be filled later with orange acrylic paint.
+
+    - name   : acrylic-paint-white.jpg
+      title  : Filling the engraved graphics with white acrylic paint
+
+    - name   : white-color-applied.jpg
+      title  : White acrylic paint applied
+        
+    - name   : masking-orange-color.jpg
+      title  : Masking with kapton tape the sections already painted.
+        
+    - name   : acrylic-paint-orange.jpg
+      title  : Filling with orange acrylic paint
+        
+    - name   : dry-film-acrylic-paint.jpg
+      title  : After removing the excess paint, it is allowed to dry and this leaves a thin film which can be scratched
+        
+    - name   : engraving-filled.jpg
+      title  : Completed keypad overlay
+        
+    - name   : clear-coated.jpg
+      title  : Sprayed a few coats of varnish to match with the finish of the display frame.
+
+
+clkv3-enclosure:
+    - name   : enclosure-raw-shapeways.jpg
+      title  : Raw 3D printed parts for the enclosure.
+
+    - name   : display-frame-shapeways.jpg
+      title  : Raw 3d printed parts for the display frame.
+        
+    - name   : threaded-insert-installed.jpg
+      title  : 4-40 threaded inserts installed.
+        
+    - name   : enclosure-first-sanding-bottom.jpg
+      title  : Bottom of the enclosure after a few cycle of primer and sanding.
+        
+    - name   : enclosure-first-sanding.jpg
+      title  : Back of the enclosure after a few cycle of primer and sanding.
+        
+    - name   : display-frame-assembly.jpg
+      title  : Display frame painted.
+
+    - name   : enclosure-varnish-layer-front.jpg
+      title  : Enclosure painted and varnished.
+        
+    - name   : enclosure-varnish-layer-bottom.jpg
+      title  : Bottom of the enclosure after painting and varnishing.
+        
+
+clkv3-decals:
+    - name   : applying-decals-back-panel.jpg
+      title  : Decal sheet positioning.
+
+    - name   : decals-enclosure-back.jpg
+      title  : Decals on the back of the enclosure.
+
+    - name   : decals-enclosure-bottom.jpg
+      title  : Decals on the bottom of the enclosure.
+        
+    - name   : decals-enclosure-side.jpg
+      title  : Decals on the right side of the enclosure.
+
+
+
+
+
+
+
+
+
+
+      
+  
+
+      
+      

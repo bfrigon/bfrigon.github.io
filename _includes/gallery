@@ -1,0 +1,15 @@
+
+{% assign gallery_album = site.data.gallery[include.name] %}
+
+<div class="gallery">
+    {% for item in gallery_album %}
+        {% capture image_url %}/images/gallery/{{ include.name }}/{{ item.name }}{% endcapture %}
+        {% capture thumb_url %}/images/gallery/{{ include.name }}/thumbs/{{ item.name }}{% endcapture %}
+
+        <span class="media image frame">
+            <a href="{{ image_url }}" title="{{ item.title | escape }}">
+            <img src="{{ thumb_url }}" alt="{{ item.alt | escape }}" title="{{ item.title | escape }}" width="128" height="96" />
+            </a>
+        </span>
+    {% endfor %}
+</div>

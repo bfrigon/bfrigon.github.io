@@ -1,0 +1,10 @@
+---
+layout: default
+
+inline-css: [media.css]
+
+---
+
+<h1 class="listing-title">#{{ page.tag | replace: '-', ' ' | capitalize }}</h1>
+
+{% include post-listing-compact.html type='tag' %}

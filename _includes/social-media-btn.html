@@ -1,0 +1,23 @@
+{% if include.class != null %}
+    {% assign social_btn_class = include.class %}
+{% else %}
+    {% assign social_btn_class = 'btn-icon-small' %}
+{% endif %}
+
+{% if include.link != null %}
+    {% assign social_btn_link = include.link %}
+{% else %}
+    {% capture social_btn_link %}{{site.url}}{{page.url}}{% endcapture %}
+{% endif %}
+
+{% if include.title != null %}
+    {% assign social_btn_title = include.title %}
+{% else %}
+    {% capture social_btn_title %}{{page.title}}{% endcapture %}
+{% endif %}
+
+
+<a class="button {{ social_btn_class }}" href="https://www.facebook.com/sharer.php?u={{social_btn_link}}&t={{social_btn_title | uri_escape}}"><i class="icon-facebook"></i></a><!--
+--><a class="button {{ social_btn_class }}" href="https://twitter.com/share?text={{social_btn_title | uri_escape}}&url={{social_btn_link}}"><i class="icon-twitter"></i></a><!--
+--><a class="button {{ social_btn_class }}" href="https://plus.google.com/share?url={{social_btn_link}}"><i class="icon-google"></i></a><!--
+--><a class="button {{ social_btn_class }}" href="https://www.reddit.com/submit?url={{social_btn_link}}&title={{social_btn_title | uri_escape}}"><i class="icon-reddit-alien"></i></a>

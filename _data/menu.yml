@@ -1,0 +1,31 @@
+- icon: github
+  url: https://github.com/bfrigon
+  align: right
+  mobile: true
+
+- icon: sitemap
+  url: /posts/
+  align: right
+  mobile: true
+
+- icon: home
+  url: /
+  mobile: true
+
+- caption: Projects
+  url:     /posts/projects/
+
+- caption: Asterisk
+  url:     /posts/asterisk/
+
+- caption: DIY
+  url:     /posts/diy/
+
+- caption: Programming
+  url:     /posts/programming/
+
+- caption: About
+  url: /about/
+
+
+

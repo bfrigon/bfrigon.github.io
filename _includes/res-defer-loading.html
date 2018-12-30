@@ -1,0 +1,27 @@
+<script>
+
+    function deferloading() {
+        var element = document.createElement("link");
+        element.rel = "stylesheet";
+        element.href = "/assets/main.css?v={{ page.css_revision }}";
+        document.body.appendChild(element);
+
+        var element = document.createElement("script");
+        element.src = "/assets/scripts.js?v={{ page.js_revision }}";
+        document.body.appendChild(element);
+    }
+
+    if (window.addEventListener)
+        window.addEventListener("load", deferloading, false);
+
+    else if (window.attachEvent)
+
+        window.attachEvent("onload", deferloading);
+    else
+        window.onload = deferloading;
+
+</script>
+
+<noscript>
+    <link rel="stylesheet" href="/assets/main.css?v={{ page.css_revision }}" />
+</noscript>

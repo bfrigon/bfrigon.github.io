@@ -1,0 +1,44 @@
+---
+title: nil
+sitemap: false
+
+---
+
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    {% if page.type == 'tag' %}
+        <title>{{ site.title }} - {{ page.tag }} tag</title>
+        {% assign post_list = site.tags[page.tag] %}
+    {% elsif page.type == 'category' %}
+        <title>{{ site.title }} - {{ page.category | capitalize }} category</title>
+        {% assign post_list = site.categories[page.category] %}
+    {% else %}
+        <title>{{ site.title }}</title>
+        {% assign post_list = site.posts %}
+    {% endif %}
+
+    <description>{{site.description}}</description>
+    <link href="https://{{ site.url }}{{ page.url }}" rel="self" />
+    <link href="https://{{ site.url }}/" />
+    <id>https://{{ site.url }}"</id>
+    <language>en-us</language>
+
+    <author>
+        <name>{{ site.author | xml_escape }}</name>
+    </author>
+    <updated>{{ site.time | date_to_xmlschema }}</updated>
+
+    {% for post in post_list limit:20 %}
+    <entry>
+        <title type="text">{{ post.title | strip_html }}</title>
+        <link href="http:s//{{ site.url }}{{ post.url }}" />
+        <id>https://{{ site.url }}{{ post.url }}</id>
+        <published>{{ post.date | date_to_xmlschema }}</published>
+        <updated>{% if post.updated == null %}{{ post.date | date_to_xmlschema }}{% else %}{{ post.updated | append: '@12am' | date_to_xmlschema }}{% endif %}</updated>
+        <summary type="html">{{ post.excerpt | strip_html | xml_escape }}</summary>
+        <content type="html">{{ post.content | xml_escape }}</content>
+    </entry>
+    {% endfor %}
+</feed>
+
+

@@ -1,0 +1,130 @@
+@media only screen and (max-width: 650px) {
+
+    body {
+        margin: 5px;
+
+    }
+
+
+    /* -------------------------------------------------------------------------------
+     *
+     * Header
+     *
+     * -------------------------------------------------------------------------------
+     */
+    .header {
+        padding-top: 10px;
+        background-color: black;
+    }
+
+    .header-center {
+        height: 90px;
+        min-width: 300px;
+    }
+
+    .header-center #logo {
+        right: 15px;
+        top: 20px;
+        width: 90px;
+        height: 50px;
+    }
+
+    .header-center #title {
+        padding: 25px 0px 0px 15px;
+        font-size: 1.7em;
+    }
+
+    .header-center #subtitle {
+        font-size: 0.8em;
+        padding: 5px 0px 0px 20px;
+    }
+
+    .page {
+        min-width: 300px;
+    }
+
+    .page-content {
+        padding: 10px;
+    }
+
+    .menubar-center {
+        min-width: 300px;
+    }
+
+    .page-content p {
+        font-size: 0.9em;
+    }
+
+    .page-content h1 {
+        margin: 0px -5px 15px -5px;
+        padding: 12px 10px;
+        font-size: 1em;
+    }
+    .page-content h2 {
+        padding: 10px 0px 2px 10px;
+        margin: 0px -5px 10px -5px;
+    }
+
+    .page-content ul li,
+    .page-content ol li {
+        margin: 0px 0px 0px 0px;
+    }
+
+    .page-content blockquote {
+        margin: 5px;
+    }
+
+    .gallery {
+        margin: 20px -10px;
+        padding: 10px 0px;
+    }
+    .gallery .media {
+        margin: 3px;
+
+    }
+
+    .post-footer {
+        margin: 30px -10px 15px -10px;
+        padding: 5px 10px;
+    }
+
+
+    .navmenu a {
+        padding: 8px 12px;
+    }
+    .navmenu a.icon {
+        background-position: 6px center;
+    }
+
+    .navmenu a.more {
+        display: block !important;
+        float: right;
+    }
+
+    .navmenu a:not(.mobile) {
+        display: none;
+        clear: both;
+    }
+
+    .navmenu.responsive a:not(.mobile) {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    .highlight {
+        margin: 5px;
+    }
+    ul.tag-list li {
+        margin: 0px 5px 4px 0px;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .header-center #logo {
+        right: 15px;
+        top: 10px;
+        width: 60px;
+        height: 35px;
+    }
+}

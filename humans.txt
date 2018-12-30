@@ -1,0 +1,16 @@
+This is a blog about my electronic projects, VOIP telephony (Asterisk) and programming. The sole purpose of this blog is to share my experience, The articles posted here are not meant to be tutorials.
+
+/* TEAM */
+Author:   Benoit Frigon
+Location: Montreal, QC, Canada
+Site:     https://www.frigon.info/about/
+
+/* THANKS */
+www.hackaday.com
+oshpark.com/
+
+/* SITE */
+Standards:  HTML5, CSS3,..
+Components: jQuery
+CMS:        Jekyll
+Software:   Vim, Gimp

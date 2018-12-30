@@ -1,0 +1,70 @@
+---
+layout: default
+inline-css: [taglist.css, media.css] 
+---
+
+<article class="hentry h-entry">
+    <header>
+        <h1 itemscope itemtype="https://schema.org/BreadcrumbList">
+            <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+
+                {% capture category %}{{ page.categories[0] | capitalize }}{% endcapture %}
+                <a itemscope itemtype="https://schema.org/Thing" itemprop="item" href="/posts/{{ page.categories[0] }}">
+                    <span itemprop="name" class="p-category">{{ category }}</span>
+                </a>
+                <meta itemprop="position" content="1" />
+            </span>
+
+            &raquo;
+
+            <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a itemscope itemtype="https://schema.org/Thing" itemprop="item" href="{{ page.url }}" class="u-url">
+                    <span itemprop="name" class="entry-title p-name">{{ page.title }}</span>
+                </a>
+                <meta itemprop="position" content="2" />
+
+                {% if page.thumbnail %}
+                <meta itemprop="image" content="{{site.url}}/images/post-thumbnail/{{ page.thumbnail }}.jpg" />
+                {% endif %}
+            </span>
+        </h1>
+
+        
+        {% include social-media-btn.html size='small' %}
+        {% if page.github-repo %}
+            <a class="button btn-icon-left btn-icon-small" href="https://github.com/{{ page.github-repo }}"><i class="icon-github"></i>View on GitHub</a>
+        {% endif %}
+    </header>
+
+    <section role="main">
+        <div class="post-content e-content entry-content">
+
+            {% capture thumbnail_html %}{% include post-thumbnail %}{% endcapture %}
+            {{ content | replace:'<!--thumbnail-->', thumbnail_html }}
+
+        </div>
+    </section>
+
+    <footer>
+        <div class="post-footer">
+
+            <p class="postdata">
+                Posted on <span class="dt-published published" title="{{ page.date | date_to_rfc822 }}">{{ page.date |
+                    date: '%b %d, %Y' }}</span><br />
+                Last updated on <span class="dt-updated updated" title="{{ page.lastmod | date_to_rfc822 }}">{{
+                    page.lastmod | date: '%b %d, %Y' }}</span><br />
+
+                {% if page.author %}
+                <span class="p-author h-card vcard author">By <a class="p-name fn" href="{{ page.author-link }}">{{
+                        page.author }}</a></span><br />
+                {% endif %}
+            </p>
+
+            {% include post-tags %}
+        </div>
+    </footer>
+</article>
+
+<p>Share this :</p>
+{% include social-media-btn.html class='btn-icon-large' %}
+{% include comments.html %}

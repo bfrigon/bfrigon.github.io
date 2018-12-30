@@ -1,0 +1,62 @@
+#################################################
+#
+# Site info
+#
+#################################################
+title: Benoit Frigon
+author: Benoit Frigon
+description: My blog about electronic projects, telephony and other stuff...
+url: https://www.frigon.info
+locale: en_US
+encoding: utf-8
+timezone: America/Montreal
+
+
+#################################################
+#
+# Default page settings
+#
+#################################################
+defaults:
+
+    ### Posts ###
+    - scope:
+        path: ""
+        type: "posts"
+      values:
+        layout: "post"
+        type: "article"
+        author: "Benoit Frigon"
+        author-link: "https://plus.google.com/u/0/100667493604379348233"
+
+    ### All pages ###
+    - scope:
+        path: ""
+      values:
+        css_revision: "004"
+        js_revision: "002"
+
+
+#################################################
+#
+# Settings
+#
+#################################################
+excerpt_separator: <!--more-->
+include: ["_pages", "_assets"]
+exclude: ["*.rb", "Gemfile", "Gemfile.lock", "*.code-workspace"]
+
+relative_permalinks: false
+
+plugins:
+  - jekyll-redirect-from
+  
+
+sass:
+    style: compressed
+
+paginate: 6
+paginate_path: "page/:num"
+
+compress_html:
+    comments: ["/* ", " */"]

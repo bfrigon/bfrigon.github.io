@@ -1,0 +1,13 @@
+{% if include.thumbnail != null %}{% assign thumbnail = include.thumbnail %}{% else %}{% assign thumbnail = page.thumbnail %}{% endif %}
+{% if include.title != null %}{% assign title = include.title %}{% else %}{% assign title = page.title %}{% endif %}
+
+{% if thumbnail != null %}
+<div class="media image frame {{ include.class }}">
+    {% if include.url %}<a href="{{ include.url }}">{% endif %}
+
+    <div class="img-container" style="padding: 56.25% 0px 0px 0px; width: 480px;">
+        <img src="/images/post-thumbnail/{{ thumbnail }}.jpg" alt="{{ title }}" title="{{ title }}" width="480" height="270" />
+    </div>
+    {% if include.url %}</a>{% endif %}
+</div>
+{% endif %}

@@ -1,0 +1,496 @@
+############################################################
+#
+# About page
+#
+############################################################
+ben-picture:
+    url:       /about/
+    thumbnail: /images/library/thumbs/ben.jpg
+    align:     left
+    width:     75
+    height:    75
+    class:     frame
+    popup:     false
+
+
+
+############################################################
+#
+# Projects > PBX
+#
+############################################################
+voyage-linux-logo:
+    url:       http://linux.voyage.hk/
+    thumbnail: /images/library/voyage-linux-logo.png
+    width:     75
+    height:    75
+    alt:       Voyage linux
+    caption:   Voyage linux
+    popup:     false
+
+screenshot-pbx-console:
+    url:       /images/library/screenshot-pbx-console.jpg
+    thumbnail: /images/library/thumbs/screenshot-pbx-console.jpg
+    width:     320
+    height:    211
+    class:     frame
+    alt:       Asterisk PBX server console
+    caption:   Asterisk PBX server console
+
+
+############################################################
+#
+# Projects > HTPC
+#
+############################################################
+htpc-io-shield-template:
+    url:       https://raw.githubusercontent.com/bfrigon/project-htpc/master/drawings/templates/template_mb.pdf
+    thumbnail: /images/library/thumbs/htpc-ioshield-template.jpg
+    width:     300
+    height:    232
+    class:     frame
+    alt:       IO Shield template
+    caption:   IO Shield template
+    popup:     false
+    caption_visible: true
+
+pvr-front-panel-pcb-schematic:
+    url:       https://raw.githubusercontent.com/bfrigon/project-htpc/master/drawings/schematics/front-panel-rev-b.pdf
+    thumbnail: /images/library/thumbs/pvr-front-panel-pcb-schematic.png
+    width:     300
+    height:    193
+    class:     frame
+    alt:       HTPC LCD schematic (Rev. B)
+    caption:   HTPC LCD schematic (Rev. B)
+    popup:     false
+    caption_visible: true
+
+
+############################################################
+#
+# Projects > Media server
+#
+############################################################
+media-server-psu-bracket:
+    url:       /files/media-server/psu-bracket-template.pdf
+    thumbnail: /images/library/thumbs/media-server-psu-bracket-template.jpg
+    width:     300
+    height:    232
+    class:     frame
+    caption:   PSU bracket template
+    popup:     false
+    caption_visible: true
+
+
+############################################################
+#
+# Projects > Alarm clock
+#
+############################################################
+alarm-clock-drawings:
+    url:       https://raw.githubusercontent.com/bfrigon/project-alarm-clock/master/drawings/design/clk-dwg.pdf
+    thumbnail: /images/library/thumbs/alarm-clock-drawings.jpg
+    width:     300
+    height:    200
+    class:     frame
+    caption:   Drawings - model A
+    popup:     false
+    caption_visible: true
+
+alarm-clock-drawings-model-b:
+    url:       https://raw.githubusercontent.com/bfrigon/project-alarm-clock/master/drawings/design/clk-dwg-model-b.pdf
+    thumbnail: /images/library/thumbs/alarm-clock-drawings-model-b.jpg
+    width:     300
+    height:    200
+    class:     frame
+    caption:   Drawings - Model B
+    popup:     false
+    caption_visible: true
+
+alarm-clock-ledmtx-schematic:
+    url:       https://raw.githubusercontent.com/bfrigon/project-alarm-clock/master/drawings/schematics/clk-sch-01.pdf
+    thumbnail: /images/library/thumbs/alarm-clock-ledmtx-schematic.jpg
+    width:     300
+    height:    194
+    class:     frame
+    caption:   Led matrix schematic (PDF)
+    popup:     false
+
+alarm-clock-glueing-segments:
+    url:       /images/gallery/alarm-clock-seg-diffusers/gluing-diffuser-segments.jpg
+    thumbnail: /images/gallery/alarm-clock-seg-diffusers/thumbs/gluing-diffuser-segments.jpg
+    width:     128
+    height:    96
+    class:     frame
+    caption:   Glueing each segments to the PCB
+
+alarm-clock-digits-pcb-assembled:
+    url:       /images/gallery/alarm-clock-seg-display/digits-pcb-assembled.jpg
+    thumbnail: /images/gallery/alarm-clock-seg-display/thumbs/digits-pcb-assembled.jpg
+    width:     128
+    height:    96
+    class:     frame
+    caption:   Assembled digits PCB
+
+
+alarm-clock-plaster-model-unmolded:
+    url:       /images/gallery/alarm-clock-display-casting/plaster-model-unmolded.jpg
+    thumbnail: /images/gallery/alarm-clock-display-casting/thumbs/plaster-model-unmolded.jpg
+    width:     128
+    height:    96
+    class:     frame
+    caption:
+
+alarm-clock-plaster-model-frame:
+    url:       /images/gallery/alarm-clock-display-casting/plaster-model-frame.jpg
+    thumbnail: /images/gallery/alarm-clock-display-casting/thumbs/plaster-model-frame.jpg
+    width:     128
+    height:    96
+    class:     frame
+    caption:
+
+alarm-clock-plaster-model-painting:
+    url:       /images/gallery/alarm-clock-display-casting/plaster-model-painting.jpg
+    thumbnail: /images/gallery/alarm-clock-display-casting/thumbs/plaster-model-painting.jpg
+    width:     128
+    height:    96
+    class:     frame
+    caption:
+
+alarm-clock-display-details:
+    url:       /posts/projects/alarm-clock/display
+    thumbnail: /images/gallery/alarm-clock-display-casting/thumbs/casting-second-layer.jpg
+    width:     128
+    height:    96
+    class:     frame
+    caption:   More details about the display
+    popup:     false
+
+alarm-clock-test-video:
+    url:       https://www.youtube.com/watch?v=DnK66ylj4cE
+    thumbnail: /images/post-thumbnail/youtube-alarm-clock.jpg
+    width:     480
+    height:    360
+    class:     frame
+    caption:   "Watch on youtube : Alarm clock test"
+    popup:     false
+
+
+
+
+############################################################
+#
+# DIY > Making decals
+#
+############################################################
+spray-can-handle:
+    url:       /images/library/decals/spray-can-handle.jpg
+    thumbnail: /images/library/decals/thumbs/spray-can-handle.jpg
+    width:     96
+    height:    120
+    class:     frame
+    alt:       Spray can handle
+    caption:   Spray can handle
+    align:     right
+
+decalprofx:
+    url:       /images/library/decals/decalprofx.jpg
+    thumbnail: /images/library/decals/thumbs/decalprofx.jpg
+    width:     120
+    height:    120
+    class:     frame
+    alt:       Decalpro FX
+    caption:   Decalpro FX
+    align:     left
+
+decal-1:
+    url:       /images/library/decals/aplying-decals-1.jpg
+    thumbnail: /images/library/decals/thumbs/aplying-decals-1.jpg
+    width:     160
+    height:    119
+    class:     frame
+    alt:       Printing decal on transfert paper
+    caption:   Printing decal on transfert paper
+
+decal-2:
+    url:       /images/library/decals/aplying-decals-2.jpg
+    thumbnail: /images/library/decals/thumbs/aplying-decals-2.jpg
+    width:     160
+    height:    119
+    class:     frame
+    alt:       Applying the toner reactive foil (TRF)
+    caption:   Applying the toner reactive foil (TRF)
+
+decal-3:
+    url:       /images/library/decals/aplying-decals-3.jpg
+    thumbnail: /images/library/decals/thumbs/aplying-decals-3.jpg
+    width:     160
+    height:    119
+    class:     frame
+    alt:       Separating the transfert sheet
+    caption:   Separating the transfert sheet
+
+decal-4:
+    url:       /images/library/decals/aplying-decals-4.jpg
+    thumbnail: /images/library/decals/thumbs/aplying-decals-4.jpg
+    width:     160
+    height:    119
+    class:     frame
+    alt:       Applying the decal to the front panel
+    caption:   Applying the decal to the front panel
+
+decal-pfsense:
+    url:       /images/library/decals/decal-pfsense-logo.jpg
+    thumbnail: /images/library/decals/thumbs/decal-pfsense-logo.jpg
+    width:     160
+    height:    120
+    class:     frame
+    alt:       PfSense logo decal
+    caption:   PfSense logo decal using the multi layer technique
+
+
+############################################################
+#
+# DIY > rack cabinet
+#
+############################################################
+rack-drawings:
+    url:       /files/rack/rack-dwg.pdf
+    thumbnail: /images/library/rack-cabinet/thumbs/rack-drawings.jpg
+    width:     300
+    height:    195
+    class:     frame
+    alt:       Rack cabinet drawings
+    caption:   Rack cabinet drawings
+    popup:     false
+
+power-rails:
+    url:       /images/library/rack-cabinet/power-rails.jpg
+    thumbnail: /images/library/rack-cabinet/thumbs/power-rails.jpg
+    width:     90
+    height:    120
+    class:     frame
+    alt:       Power distribution
+    caption:   Power distribution
+
+cable-organizer:
+    url:       /images/library/rack-cabinet/cable-organizer.jpg
+    thumbnail: /images/library/rack-cabinet/thumbs/cable-organizer.jpg
+    width:     160
+    height:    120
+    class:     frame
+    alt:       Cable management
+    caption:   Cable management
+
+
+
+
+############################################################
+#
+# DIY > rack led lighting
+#
+############################################################
+led-lighting-before:
+    url:       /images/library/rack-lighting/rack-old-lighting.jpg
+    thumbnail: /images/library/rack-lighting/thumbs/rack-old-lighting.jpg
+    width:     240
+    height:    320
+    class:     frame
+    alt:       Old LED lighting
+    caption:   Old LED lighting
+
+led-lighting-after:
+    url:       /images/gallery/rack-led-lighting/rack-back-light-white.jpg
+    thumbnail: /images/library/rack-lighting/thumbs/rack-back-light-white.jpg
+    width:     240
+    height:    320
+    class:     frame
+    alt:       Rear view of the rack with led lighting on (White)
+    caption:   Rear view of the rack with led lighting on (White)
+
+led-strip-closeup:
+    url:       /images/library/rack-lighting/led-strip-cutting-point.jpg
+    thumbnail: /images/library/rack-lighting/thumbs/led-strip-cutting-point.jpg
+    width:     160
+    height:    120
+    class:     frame
+    alt:       Led strip cut point
+    caption:   Led strip cut point
+
+led-strip-controller:
+    url:       /images/library/rack-lighting/led-strip-rgb-controller.jpg
+    thumbnail: /images/library/rack-lighting/thumbs/led-strip-rgb-controller.jpg
+    width:     160
+    height:    120
+    class:     frame
+    alt:       RGB led strip controller with remote control
+    caption:   RGB led strip controller with remote control
+
+led-strip-installed:
+    url:       /images/gallery/rack-led-lighting/rgb-led-strip.jpg
+    thumbnail: /images/gallery/rack-led-lighting/thumbs/rgb-led-strip.jpg
+    width:     128
+    height:    96
+    class:     frame
+    alt:       Led strip installed in the upper section of the rack
+    caption:   Led strip installed in the upper section of the rack
+
+
+
+############################################################
+#
+# Asterisk > Recording custom voice prompts
+#
+############################################################
+record-prompts-capture:
+    url:       /images/library/prompts-recording/capture.jpg
+    thumbnail: /images/library/prompts-recording/thumbs/capture.jpg
+    width:     425
+    height:    261
+    class:     frame
+    alt:
+    caption:
+
+audacity-labels:
+    type:      static
+    url:       /images/library/prompts-recording/audacity-labels.jpg
+    thumbnail: /images/library/prompts-recording/thumbs/audacity-labels.jpg
+    width:     500
+    height:    375
+    class:     frame
+    alt:       Create labels in audacity
+    caption:   Create labels in audacity
+
+audacity-export:
+    type:      static
+    url:       /images/library/prompts-recording/audacity-export-labels.jpg
+    width:     627
+    height:    312
+    class:     frame
+    alt:       Exporting labels in audacity
+    caption:   Exporting labels in audacity
+
+audacity-export-settings:
+    type:      static
+    url:       /images/library/prompts-recording/audacity-export-settings.jpg
+    width:     395
+    height:    200
+    class:     frame
+    alt:       Export options
+    caption:   Export options
+
+
+############################################################
+#
+# DIY > Workbench
+#
+############################################################
+workbench-drawings:
+    url:       /files/workbench/drawings.pdf
+    thumbnail: /images/library/workbench/thumbs/drawing-pdf.jpg
+    width:     300
+    height:    200
+    class:     frame
+    alt:       Workbench drawings
+    caption:   Workbench drawings
+    popup:     false
+
+workbench-with-cabinet:
+    url:       /images/library/workbench/workbench-with-cabinet.jpg
+    thumbnail: /images/library/workbench/thumbs/workbench-with-cabinet.jpg
+    width:     400
+    height:    300
+    class:     frame
+    alt:       Workbench with cabinet
+    caption:   Workbench with cabinet
+    popup:     true
+
+
+############################################################
+#
+# Projects > Alarm clock V3
+#
+############################################################
+alarm-clock-v3-drawings:
+    url:       https://github.com/bfrigon/alarm-clock-v3/raw/master/drawings/mechanical/clkv3-dwg.pdf
+    thumbnail: /images/library/thumbs/clkv3-dwg.jpg
+    width:     300
+    height:    200
+    class:     frame
+    caption:   Drawings - Alarm clock V3
+    popup:     false
+    caption_visible: true
+
+clkv3-speakers:
+    url:       /images/library/alarm-clock-v3/frame-back-assembled.jpg
+    thumbnail: /images/library/alarm-clock-v3/thumbs/frame-back-assembled.jpg
+    width:     160
+    height:    120
+    class:     frame
+    alt:       Speakers
+    caption:   Speakers    
+
+clkv3-rgb-digit-pcb-assembled:
+    url:       /images/library/alarm-clock-v3/rgb-digit-pcb-assembled.jpg
+    thumbnail: /images/library/alarm-clock-v3/thumbs/rgb-digit-pcb-assembled.jpg
+    width:     120
+    height:    160
+    class:     frame
+    alt:       RGB digit pcb
+    caption:   RGB digit pcb assembled
+
+clkv3-final-assembly-front:
+    url:       /images/library/alarm-clock-v3/final-assembly-front.jpg
+    thumbnail: /images/library/alarm-clock-v3/thumbs/final-assembly-front.jpg
+    width:     400
+    height:    300
+    class:     frame
+    alt:       Final assembly (Front)
+    caption:   Final assembly (Front)
+    
+    
+    
+############################################################
+#
+# DIY > Shapeways plastic smoothing
+#
+############################################################
+swplastic-parts-washed:
+    url:       /images/library/shapeways-plastic/parts-washed.jpg
+    thumbnail: /images/library/shapeways-plastic/thumbs/parts-washed.jpg
+    width:     200
+    height:    150
+    class:     frame
+    alt:       Parts washed
+    caption:   After washing the part. You can see how much this material absorbs liquid.
+
+swplastic-primer-filling:
+    url:       /images/library/shapeways-plastic/painting-halfway.jpg
+    thumbnail: /images/library/shapeways-plastic/thumbs/painting-halfway.jpg
+    width:     200
+    height:    150
+    class:     frame
+    alt:       
+    caption:   After a few primer coats
+
+swplastic-before:
+    url:       /images/library/shapeways-plastic/raw-texture-closeup.jpg
+    thumbnail: /images/library/shapeways-plastic/thumbs/raw-texture-closeup.jpg
+    width:     250
+    height:    188
+    class:     frame
+    alt:       Before
+    caption:   This is the material as-is.
+
+swplastic-after:
+    url:       /images/library/shapeways-plastic/finished.jpg
+    thumbnail: /images/library/shapeways-plastic/thumbs/finished.jpg
+    width:     250
+    height:    188
+    class:     frame
+    alt:       After
+    caption:   Finished part
+    
+
+
+    

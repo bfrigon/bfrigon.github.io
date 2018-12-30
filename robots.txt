@@ -1,0 +1,11 @@
+---
+sitemap: false
+
+---
+
+Sitemap: {{ site.url }}/sitemap.xml
+
+User-agent: *
+Disallow: /images/library/thumbs/
+Disallow: /images/icons/
+Disallow: /wp-content/
