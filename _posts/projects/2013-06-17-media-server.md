@@ -2,7 +2,7 @@
 title:       Home media server
 description: Home media server in a 1U rackmount chassis. It has a tv tuner to stream tv to the clients. It runs Ubuntu Server 12.04.
 date:        2013-06-17 01:46:27 EDT
-lastmod:     2018-12-10 21:58:15 EST
+lastmod:     2018-12-30 19:39:03 EST
 permalink:   /posts/projects/media-server/
 thumbnail:   media-server
 

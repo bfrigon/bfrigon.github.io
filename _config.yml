@@ -44,7 +44,7 @@ defaults:
 #################################################
 excerpt_separator: <!--more-->
 include: ["_pages", "_assets"]
-exclude: ["*.rb", "Gemfile", "Gemfile.lock", "*.code-workspace"]
+exclude: ["*.rb", "Gemfile", "Gemfile.lock", "*.code-workspace", "Rakefile", "README.md", "LICENSE"]
 
 relative_permalinks: false
 

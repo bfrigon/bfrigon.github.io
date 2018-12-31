@@ -2,7 +2,7 @@
 title:       Asterisk dialplan syntax highlighting for gedit
 description: Asterisk dialplan syntax highlighting for gtksourceview (gedit)
 date:        2013-06-09 22:28:41 EDT
-lastmod:     2018-12-10 21:58:15 EST
+lastmod:     2018-12-30 19:39:03 EST
 permalink:   /posts/asterisk/asterisk-dialplan-highlight/
 thumbnail:   dialplan-highlight
 

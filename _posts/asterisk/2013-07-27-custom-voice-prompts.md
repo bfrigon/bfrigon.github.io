@@ -2,7 +2,7 @@
 title:       Recording voice prompts with Audacity and SOX
 description: How to record your own custom voice prompts with Audacity to use with Asterisk.
 date:        2013-07-27 19:28:23 EDT
-lastmod:     2018-12-10 21:58:15 EST
+lastmod:     2018-12-30 19:39:03 EST
 permalink:   /posts/asterisk/custom-voice-prompts/
 thumbnail:   asterisk-voice-prompts
 

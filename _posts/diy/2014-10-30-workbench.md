@@ -2,7 +2,7 @@
 title:       DIY electronics workbench
 description: Plans and details of my custom electronics workbench
 date:        2014-10-30 03:21:33 EDT
-lastmod:     2018-12-12 03:37:44 EST
+lastmod:     2018-12-30 19:39:03 EST
 permalink:   /posts/diy/workbench/
 thumbnail:   workbench
 

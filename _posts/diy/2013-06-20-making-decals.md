@@ -2,7 +2,7 @@
 title:       Making front panels with decals
 description: This is the techniques i use to build custom enclosures and how i make decals.
 date:        2013-05-06 21:14:56 EDT
-lastmod:     2018-12-10 21:58:15 EST
+lastmod:     2018-12-30 19:39:03 EST
 permalink:   /posts/diy/making-decals/
 thumbnail:   making-decals
 

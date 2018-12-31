@@ -2,7 +2,7 @@
 title:       Asterisk manager - Y.A.A.M
 description: Y.A.A.M, A web interface for managing Asterisk
 date:        2013-06-09 22:28:41 EDT
-lastmod:     2018-12-10 21:58:15 EST
+lastmod:     2018-12-30 19:39:03 EST
 permalink:   /posts/asterisk/asterisk-manager/
 github-repo: bfrigon/yaam
 

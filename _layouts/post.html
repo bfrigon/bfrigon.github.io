@@ -9,7 +9,7 @@ inline-css: [taglist.css, media.css]
             <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
 
                 {% capture category %}{{ page.categories[0] | capitalize }}{% endcapture %}
-                <a itemscope itemtype="https://schema.org/Thing" itemprop="item" href="/posts/{{ page.categories[0] }}">
+                <a itemscope itemtype="https://schema.org/Thing" itemprop="item" href="/posts/{{ page.categories[0] }}/">
                     <span itemprop="name" class="p-category">{{ category }}</span>
                 </a>
                 <meta itemprop="position" content="1" />

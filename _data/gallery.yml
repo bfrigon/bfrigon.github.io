@@ -1301,16 +1301,54 @@ clkv3-decals:
       title  : Decals on the right side of the enclosure.
 
 
+clkv3-psu:
+    - name   : battery-holder.jpg
+      title  : Battery holder for lithium battery.
+
+    - name   : battery-holder-installed.jpg
+      title  : Battery holder installed.
+
+    - name   : psu-pcb-solder-paste.jpg
+      title  : Solder paste applied to the PSU board.
+        
+    - name   : psu-pcs-reflowed.jpg
+      title  : PSU board reflowed
+
+    - name   : psu-pcb-assembled.jpg
+      title  : PSU board fully assembled.
+
+    - name   : psu-pcb-installed.jpg
+      title  : PSU board installed.
 
 
+clkv3-final-assembly:
+    - name   : assembly-display-panel-installed.jpg
+      title  : Display panel assembled
 
+    - name   : assembly-enclosure-top.jpg
+      title  : Bottom view of the display panel assembly.
 
+    - name   : assembly-final.jpg
+      title  : Installation of the display panel assy.
 
+    - name   : final-assembly-front.jpg
+      title  : Front view
 
+    - name   : rear-view.jpg
+      title  : Rear view
 
+    - name   : front-display-turquoise.jpg
+      title  : RGB display set to turquoise
 
-      
-  
+    - name   : front-display-white.jpg
+      title  : RGB display set to white
 
-      
+    - name   : display-on-battery.jpg
+      title  : RGB display is off when running on battery.
+
+    - name   : front-display-dark-set-alarms.jpg
+      title  : Display in the dark.
+
+    - name   : night-lamp-in-dark.jpg
+      title  : RGB night lamp ON.
       

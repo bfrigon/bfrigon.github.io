@@ -328,7 +328,7 @@ task :resize_images do
         end
     end
 
-    printf("%d thumbnail(s) resized\n\n", img_count)
+    printf("%d image(s) resized\n\n", img_count)
 end
 
 #########################################################

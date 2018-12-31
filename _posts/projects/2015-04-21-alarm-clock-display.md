@@ -2,7 +2,7 @@
 title:       Linux alarm clock - Display
 description: Custom seven segment display for my alarm clock project
 date:        2015-05-26 22:31:00 EST
-lastmod:     2018-12-10 21:58:15 EST
+lastmod:     2018-12-30 19:39:03 EST
 permalink:   /posts/projects/alarm-clock/display/
 thumbnail:   alarm-clock-display
 github-repo: bfrigon/alarm-clock-hardware

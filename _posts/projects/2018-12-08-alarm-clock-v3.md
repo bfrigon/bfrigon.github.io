@@ -2,7 +2,7 @@
 title:       Another alarm clock project
 description: RGB seven segment display alarm clock with MP3 playback and WIFI
 date:        2018-12-08 01:00:00 EST
-lastmod:     2018-12-26 03:51:14 EST
+lastmod:     2018-12-31 00:53:09 EST
 thumbnail:   alarm-clock-v3
 permalink:   /posts/projects/alarm-clock-v3/
 github-repo: bfrigon/alarm-clock-v3
@@ -11,7 +11,7 @@ categories:  [projects]
 tags:        [diy, electronic]
 
 sitemap-priority: 0.9
-sitemap-galleries: [clkv3-enclosure, clkv3-decals, clkv3-display, clkv3-keypad, clkv3-motherboard]
+sitemap-galleries: [clkv3-enclosure, clkv3-decals, clkv3-display, clkv3-keypad, clkv3-motherboard, clkv3-psu, clkv3-final-assembly]
 
 ---
 
@@ -107,6 +107,8 @@ In standby mode, the maximum power consumption is around 12 mA. Which is enough 
 
 The [BQ24075][datasheet-BQ24075] IC is responsible for charging/monitoring the LIPO battery. It can automatically switch from external DC power to battery power if the voltage falls below 4.35v or goes over 6.4v. It's output voltage varies between 3v and 5.5v in function of the battery charge and if external DC is present. For that reason, a step-up/step-down converter is needed after the [BQ24075][datasheet-BQ24075]. I chose the [TPS630701][datasheet-TPS630701]. It is capable of outputting 5V at up to 2A from a wide input range (2v to 16v), perfect for the job. 
 
+{% include gallery name='clkv3-psu' %}
+
 
 ### PGOOD/SYSOFF signal
 
@@ -119,6 +121,10 @@ It also has a SYSOFF pin which is used to disconnect the battery when the pin is
 
 The embedded USB serial adapter is handy because I can update the software without having to open the enclosure. However, it becomes an unwanted source of power drain when running on battery. I modified the USB-serial firmware so that it will monitor the USB voltage. When VUSB is not detected, the processor will enter power-down mode and wake up when VUSB is present again. This significantly reduces the power consumption when the serial adapter is not needed.
 
+
+## Final assembly ##
+
+{% include gallery name='clkv3-final-assembly' %}
 
 ## CAD, schematics and fab files.
 
