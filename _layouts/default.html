@@ -18,7 +18,7 @@ layout: compress
     </script>
     
     
-    <style type="text/css">
+    <style>
         {% include css/core.css %}
         {% include css/fontello-embedded.css %}
     </style>
@@ -29,7 +29,7 @@ layout: compress
         <style>{% include css/{{ name }} %}</style>
     {% endfor %}
 
-    <style type="text/css">{% include css/mobile.css %}</style>
+    <style>{% include css/mobile.css %}</style>
     
 
     <meta name="language" content="english" />
@@ -63,7 +63,7 @@ layout: compress
         {% endif %}
     {% endif %}
 
-    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 
     <link type="text/plain" rel="author" href="{{ site.url }}/humans.txt" />
     <link rel="canonical" href="{{ site.url }}{%if page.canonical %}{{ page.canonical }}{% else %}{{ page.url }}{% endif %}" />

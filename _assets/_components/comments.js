@@ -1,8 +1,8 @@
 $(document).ready(function() {
 
     objCommentForm = $("form[name='comment']");
-    objCommentSubmitBtn = objCommentForm.find("a[name='submit']");
-    objCommentCancelBtn = objCommentForm.find("a[name='cancel']");
+    objCommentSubmitBtn = objCommentForm.find("a[id='submit']");
+    objCommentCancelBtn = objCommentForm.find("a[id='cancel']");
     objCommentContainer = $("div.comments-container");
     objMsgbox = $(".msgbox-background");
     objMsgboxCaption = objMsgbox.find("#msgbox-caption");
