@@ -2,7 +2,7 @@
 title:       Another alarm clock project
 description: RGB seven segment display alarm clock with MP3 playback and WIFI
 date:        2018-12-08 01:00:00 EST
-lastmod:     2018-12-31 00:53:09 EST
+lastmod:     2019-01-01 14:59:14 EST
 thumbnail:   alarm-clock-v3
 permalink:   /posts/projects/alarm-clock-v3/
 github-repo: bfrigon/alarm-clock-v3
@@ -15,14 +15,11 @@ sitemap-galleries: [clkv3-enclosure, clkv3-decals, clkv3-display, clkv3-keypad, 
 
 ---
 
-Some would argue that there is no point in having an alarm clock anymore. Pretty much everyone use their cell phone as an alarm clock nowadays. But, not me, i still prefer to have an old fashion alarm clock standing on my bedside table. That said, i also like the functionality of the alarm clock app on my cell phone. The fact that the clock update the time itself on daylight saving changes, the ability to use MP3’s as alarm sounds, setting multiple alarms and choosing which days of the week the alarm goes off. I replicated all of those functions in the firmware.
+This is my third alarm clock design. It has an RGB 7-segments display made from WS2812 LEDs, a VS1053 chip to playback MP3's as alarm sound, WiFi connectivity. It is easily programmable as the main board design is based on an Arduino mega. It has an onboard USB->serial adapter and is compatible with the Arduino IDE and all the libraries.
+
+The enclosure parts can be printed with your own 3D printer or by using an online 3D printing services. I included all the necessary STL files on the [GitHub repository][link-github-stl-files] for this project.
 
 <!--more-->
-
-The goal of my designs is to make them look as much as possible as if they were bought. I like the professional look, not just on the outside, but the inside as well. This is getting easier and easier to achieve with the multiple sources of fabrication services online (3D printing, laser cutting, PCB manufacturing). If you look back 15 years ago, building a custom plastic enclosure just for a DIY project was unthinkable.
-
-{% include media name='clkv3-final-assembly-front' %}
-
 
 ### Features summary
 
@@ -31,18 +28,17 @@ The goal of my designs is to make them look as much as possible as if they were 
 - Plays MP3/WAV files from a SD card.
 - Large RGB seven segment display
 - 16x2 character LCD display
-- Night lamp
+- RGB night lamp
 - Touch keypad
 - 24h battery backup
 
+{% include media name='clkv3-final-assembly-front' %}
 
 ## Enclosure
 
 The enclosure is made from two parts, the upper section which contains the display and speaker and the lower section which consist of the LCD display module and motherboard. I used Shapeways to print the enclosure parts using their black dyed versatile plastic. The unfinished parts have a porous texture and if you scratch it lightly, it becomes shiny and really visible. To smooth it out, i spray paint the part and sand it with 1000 grit sandpaper between each coat and repeat until I get a smooth finish.
 
 More details about this process [here][post-smooth-shapeways-plastic].
-
-STL files for all the enclosure parts are available on the [GitHub repository][link-github-stl-files] for this project.
 
 {% include gallery name='clkv3-enclosure' %}
 
