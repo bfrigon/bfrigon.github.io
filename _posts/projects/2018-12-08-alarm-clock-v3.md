@@ -2,7 +2,7 @@
 title:       Another alarm clock project
 description: RGB seven segment display alarm clock with MP3 playback and WIFI
 date:        2018-12-08 01:00:00 EST
-lastmod:     2019-01-01 14:59:14 EST
+lastmod:     2019-06-23 16:08:22 EDT
 thumbnail:   alarm-clock-v3
 permalink:   /posts/projects/alarm-clock-v3/
 github-repo: bfrigon/alarm-clock-v3
