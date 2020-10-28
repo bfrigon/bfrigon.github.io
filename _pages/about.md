@@ -16,7 +16,6 @@ inline-css: [media.css]
 
 # About this blog
 
-{% include media name='ben-picture' %}
 This is a blog about my electronic projects, VOIP telephony (Asterisk) and programming. The sole purpose of this blog is to share my experience. I provide all schematics, drawings and source code freely. The articles posted here are not meant to be step-by-step tutorials. 
 
 If you have questions, feel free to ask me but keep in mind that I have limited free time to answer.
